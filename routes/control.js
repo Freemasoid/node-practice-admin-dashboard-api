@@ -2,4 +2,4 @@ import express from "express";
 
 const router = express.Router();
 
-export { router as generalRouter };
+export { router as controlRouter };

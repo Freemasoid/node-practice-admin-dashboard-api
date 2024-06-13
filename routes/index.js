@@ -1,6 +1,6 @@
-import { clientRouter } from "./clientRoutes.js";
-import { generalRouter } from "./generalRoutes.js";
-import { mgmtRouter } from "./mgmtRoutes.js";
-import { salesRouter } from "./salesRoutes.js";
+import { clientRouter } from "./client.js";
+import { mainRouter } from "./main.js";
+import { controlRouter } from "./control.js";
+import { salesRouter } from "./sales.js";
 
-export { clientRouter, generalRouter, mgmtRouter, salesRouter };
+export { clientRouter, mainRouter, controlRouter, salesRouter };
